@@ -73,9 +73,12 @@ dsa-tracker/
 
 ## 🤝 Contributors
 
-- Vinay  
-- Mehak  
-- [Add all members here]
+- Himanshu  
+- Aarav 
+- Aayush
+- Nitin
+- Parveen
+- Ritesh
 
 ---
 
