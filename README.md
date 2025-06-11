@@ -17,4 +17,66 @@ This repo helps us assign problems, track progress, and submit solutions — all
 ---
 
 ## 🗂 Structure
+dsa-tracker/
+├── solutions/
+│ ├── arrays/
+│ │ ├── two_sum_vinay.cpp
+│ │ └── two_sum_mehak.py
+│ ├── dp/
+│ └── graphs/
+├── .github/
+│ └── ISSUE_TEMPLATE.md
+├── README.md
 
+
+
+---
+
+## ✅ How We Work
+
+1. 🐛 **Create a new Issue** for every problem  
+   - Include: title, topic, platform, difficulty, and a link  
+   - Assign everyone (or relevant members)
+   - Add it to the **Project Board**
+
+2. 🔄 **Track your progress**  
+   - Go to the [Project Board](./projects)  
+   - Move tasks across: `To Do` → `In Progress` → `Solved by All`  
+   - Update the custom field: `Solved By`
+
+3. 💻 **Submit your solution**  
+   - Inside the `/solutions` folder under topic
+   - File name format: `problem_name_username.extension`  
+   - Example: `two_sum_vinay.cpp`
+
+---
+
+## 🏷 Tags & Fields (in Project Board)
+
+| Field         | Example             |
+|---------------|---------------------|
+| Topic         | Arrays, DP, Trees   |
+| Difficulty    | Easy / Medium / Hard |
+| Platform      | LeetCode, GFG, CF   |
+| Solved By     | Multi-select        |
+| Posted By     | Username            |
+
+---
+
+## 📊 Tips
+
+- Filter by label or field to see specific problem types
+- Use comments in issues for hints, edge cases, or discussion
+- Fork this repo if you'd like your own copy!
+
+---
+
+## 🤝 Contributors
+
+- Vinay  
+- Mehak  
+- [Add all members here]
+
+---
+
+Let’s crush DSA one problem at a time 🚀
