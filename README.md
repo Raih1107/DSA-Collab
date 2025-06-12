@@ -14,19 +14,8 @@ This repo helps us assign problems, track progress, and submit solutions — all
 - Submit and review each other's solutions
 - Build discipline and consistency together 💪
 
----
 
-## 🗂 Structure
-dsa-tracker/
-├── solutions/
-│ ├── arrays/
-│ │ ├── two_sum_vinay.cpp
-│ │ └── two_sum_mehak.py
-│ ├── dp/
-│ └── graphs/
-├── .github/
-│ └── ISSUE_TEMPLATE.md
-├── README.md
+
 
 
 
