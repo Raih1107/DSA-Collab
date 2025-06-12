@@ -68,6 +68,7 @@ This repo helps us assign problems, track progress, and submit solutions — all
 - Nitin
 - Parveen
 - Ritesh
+- Prerak
 
 ---
 
