@@ -1,8 +1,3 @@
-# Ignore everything
-*
-
-# But do not ignore .gitignore itself
-!.gitignore
-
-# Do not ignore  .cpp files
-!*.cpp
+runcpp.sh
+*.bin
+*.prob
