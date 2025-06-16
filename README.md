@@ -29,7 +29,7 @@ This repo helps us assign problems, track progress, and submit solutions — all
    - Add it to the **Project Board**
 
 2. 🔄 **Track your progress**  
-   - Go to the [Project Board]([./projects](https://github.com/users/Raih1107/projects/1/views/1))  
+   - Go to the [Project Board](https://github.com/users/Raih1107/projects/1/views/1)  
    - Move tasks across: `To Do` → `In Progress` → `Solved by All`  
    - Update the custom field: `Solved By`
 
