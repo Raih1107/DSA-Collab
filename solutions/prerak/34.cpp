@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int bs(vector<int> nums, int target, bool isSearchingLeft){
+int bs(vector<int>& nums, int target, bool isSearchingLeft){
 	int l = 0;
 	int h = nums.size() - 1;
 	int idx = -1;
