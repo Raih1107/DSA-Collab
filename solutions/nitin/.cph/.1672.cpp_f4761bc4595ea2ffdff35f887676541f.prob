@@ -1,0 +1,1 @@
+{"name":"Local: 1672","url":"/home/nitin/Downloads/DSA-Collab/solutions/nitin/1672.cpp","tests":[{"id":1749805418069,"input":"3 3\n1 2 3\n3 2 1","output":"6"},{"id":1749805430618,"input":"3 2\n1 5\n7 3\n3 5","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/nitin/Downloads/DSA-Collab/solutions/nitin/1672.cpp","group":"local","local":true}
