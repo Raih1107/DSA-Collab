@@ -1,3 +1,5 @@
-runcpp.sh
-*.bin
+# Ignore all .prob files
 *.prob
+
+# Ignore everything inside the .cph folder
+.cph/
