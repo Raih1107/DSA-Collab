@@ -15,6 +15,8 @@ using namespace std;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
+// time ->O(logn)
+//  space ->O(1)
 int solve(vector<int> &input, int n)
 {
         if (n == 1)
