@@ -26,6 +26,9 @@ using namespace std;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
+// time->O(logn)
+// space ->o(1)
+
 bool findElement(const vector<int> &input, int n, int target)
 {
 

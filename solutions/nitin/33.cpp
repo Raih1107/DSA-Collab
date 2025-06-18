@@ -28,6 +28,8 @@ using namespace std;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
+// time complexity ->O(logn)
+// space complexity ->O(1)
 int findElement(const vector<int> &input, int n, int target)
 {
 

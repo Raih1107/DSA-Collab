@@ -35,6 +35,9 @@ using namespace std;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
+// time complexity ->O(logn)
+// space ->O(1)
+
 int findGreatest(const vector<char> &input, int n, char target)
 {
 
