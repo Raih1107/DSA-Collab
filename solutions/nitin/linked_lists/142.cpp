@@ -31,3 +31,49 @@
 //     pos is -1 or a valid index in the linked-list.
 
 // Follow up: Can you solve it using O(1) (i.e. constant) memory?
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution
+{
+public:
+    ListNode *detectCycle(ListNode *head)
+    {
+        // find the cycle
+        ListNode *slow = head;
+        ListNode *fast = head;
+        bool cyclePresent = false;
+        while (fast && fast->next)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+            if (slow == fast)
+            {
+                cyclePresent = true;
+                break;
+            }
+        }
+        if (!cyclePresent)
+        {
+            return nullptr;
+        }
+        slow = head;
+        if (slow == fast)
+        {
+            return slow;
+        }
+        while (slow->next != fast->next)
+        {
+            slow = slow->next;
+            fast = fast->next;
+        }
+        return slow->next;
+        // return the start point
+    }
+};
